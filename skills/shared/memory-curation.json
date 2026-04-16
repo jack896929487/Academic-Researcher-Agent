@@ -1,0 +1,11 @@
+{
+  "name": "memory-curation",
+  "display_name": "Memory Curation",
+  "description": "Guidance for deciding what should become durable research memory.",
+  "instruction": "Preserve durable findings, reusable comparisons, limitations, and stable preferences. Compress or exclude low-signal tool chatter and duplicated evidence.",
+  "guidelines": [
+    "Prefer storing synthesized findings over raw dumps when both convey the same information.",
+    "Keep negative results, caveats, and unresolved questions if they will help future sessions.",
+    "Discard ephemeral coordination text and repeated snippets that do not improve future retrieval."
+  ]
+}

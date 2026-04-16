@@ -1,0 +1,12 @@
+langchain
+langgraph
+langchain-openai
+langchain-google-genai
+langchain-mcp-adapters
+python-dotenv
+requests
+pydantic
+fastapi
+uvicorn
+langsmith
+chromadb

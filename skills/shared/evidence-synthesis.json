@@ -1,0 +1,11 @@
+{
+  "name": "evidence-synthesis",
+  "display_name": "Evidence Synthesis",
+  "description": "Guidance for structuring claims, evidence, and limitations from retrieved sources.",
+  "instruction": "Convert retrieved material into claim-evidence-limitation form. Keep disagreements visible and distinguish direct evidence from inference.",
+  "guidelines": [
+    "For each important claim, retain the supporting paper or result and any important qualification.",
+    "Explicitly surface methodological limits, benchmark gaps, or weak external validity.",
+    "When evidence conflicts, state the disagreement instead of averaging it away."
+  ]
+}

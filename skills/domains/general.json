@@ -1,0 +1,49 @@
+{
+  "id": "general",
+  "display_name": "General Academic Research",
+  "description": "Fallback mode for cross-domain research tasks.",
+  "aliases": [
+    "general",
+    "default",
+    "cross-domain",
+    "generic"
+  ],
+  "keywords": [],
+  "expert_prompt": "Use clear research scoping, careful source handling, and explicit uncertainty management. Favor primary literature and avoid domain-specific claims that are not supported by retrieved evidence.",
+  "source_preferences": [
+    "Prefer primary research papers and well-scoped surveys over informal summaries.",
+    "State uncertainty when the retrieved evidence is sparse or mixed."
+  ],
+  "role_guidance": {
+    "planner": "Keep the plan broadly applicable and avoid assuming a domain-specific evaluation standard too early.",
+    "researcher": "Use the plan to narrow the search quickly and avoid redundant tool calls.",
+    "writer": "Prioritize clarity, evidence traceability, and limitations.",
+    "reviewer": "Check for unsupported claims and missing structure before stylistic issues."
+  },
+  "glossary": [
+    {
+      "term": "research question",
+      "definition": "A precise problem statement that defines what the study or report is trying to answer.",
+      "aliases": [
+        "question",
+        "problem statement"
+      ]
+    },
+    {
+      "term": "literature review",
+      "definition": "A synthesis of prior work that organizes existing findings, methods, and open issues.",
+      "aliases": [
+        "prior work",
+        "related work"
+      ]
+    },
+    {
+      "term": "limitation",
+      "definition": "A caveat or weakness that constrains how strongly a finding should be interpreted.",
+      "aliases": [
+        "caveat",
+        "constraint"
+      ]
+    }
+  ]
+}

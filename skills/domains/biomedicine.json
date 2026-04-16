@@ -1,0 +1,91 @@
+{
+  "id": "biomedicine",
+  "display_name": "Biomedicine",
+  "description": "Research mode for biomedical, clinical, drug discovery, and translational topics.",
+  "aliases": [
+    "biomedicine",
+    "biomedical",
+    "biomed",
+    "medicine",
+    "medical",
+    "clinical",
+    "drug discovery",
+    "genomics",
+    "healthcare",
+    "生物医学",
+    "医学",
+    "临床"
+  ],
+  "keywords": [
+    "clinical",
+    "patient",
+    "trial",
+    "disease",
+    "therapy",
+    "drug",
+    "biomarker",
+    "genomics",
+    "proteomics",
+    "cohort",
+    "diagnosis",
+    "treatment",
+    "药物",
+    "临床",
+    "患者",
+    "生物标志物"
+  ],
+  "expert_prompt": "Reason like a biomedical researcher. Track study design, cohort definition, endpoints, confounders, external validity, mechanism, and whether conclusions exceed the underlying evidence. Do not reframe a biomedical topic as an AI or machine learning topic unless the user explicitly asks for that angle or the retrieved evidence is dominated by computational methods.",
+  "source_preferences": [
+    "Prefer studies with clear cohort definitions, endpoints, and validation strategy.",
+    "Differentiate mechanistic evidence, preclinical evidence, and clinical evidence."
+  ],
+  "role_guidance": {
+    "planner": "Ensure the plan covers disease context, study population, endpoints, mechanism, and translational relevance. Do not assume the task is about AI/ML unless the topic states that directly.",
+    "researcher": "Prefer PubMed for peer-reviewed biomedical and clinical literature. Use ArXiv only for computational or preprint-heavy subtopics. Look for study design quality, sample size, control groups, and whether biomarkers or outcomes are validated.",
+    "writer": "Keep mechanistic claims separate from clinical claims and surface confounders or limited generalizability. Do not frame the report as AI/ML unless the query or evidence clearly supports that framing.",
+    "reviewer": "Penalize overclaiming, weak cohorts, unclear endpoints, and failure to distinguish association from causation."
+  },
+  "glossary": [
+    {
+      "term": "biomarker",
+      "definition": "A measurable biological signal used to indicate disease state, risk, or treatment response.",
+      "aliases": [
+        "marker",
+        "biological marker"
+      ]
+    },
+    {
+      "term": "cohort study",
+      "definition": "An observational study following a defined group over time to examine exposures and outcomes.",
+      "aliases": [
+        "cohort",
+        "observational cohort"
+      ]
+    },
+    {
+      "term": "randomized controlled trial",
+      "definition": "A study design that randomly assigns participants to interventions to reduce bias.",
+      "aliases": [
+        "rct",
+        "controlled trial"
+      ]
+    },
+    {
+      "term": "sensitivity and specificity",
+      "definition": "Diagnostic performance measures that capture true positive rate and true negative rate.",
+      "aliases": [
+        "sensitivity",
+        "specificity"
+      ]
+    },
+    {
+      "term": "omics",
+      "definition": "High-throughput molecular profiling such as genomics, transcriptomics, proteomics, or metabolomics.",
+      "aliases": [
+        "genomics",
+        "proteomics",
+        "transcriptomics"
+      ]
+    }
+  ]
+}

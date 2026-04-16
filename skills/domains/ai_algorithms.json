@@ -1,0 +1,92 @@
+{
+  "id": "ai_algorithms",
+  "display_name": "AI Algorithms",
+  "description": "Research mode for machine learning, deep learning, and algorithmic AI topics.",
+  "aliases": [
+    "ai",
+    "artificial intelligence",
+    "ai algorithms",
+    "ai algorithm",
+    "machine learning",
+    "ml",
+    "deep learning",
+    "llm",
+    "nlp",
+    "computer vision",
+    "reinforcement learning",
+    "ai算法",
+    "人工智能"
+  ],
+  "keywords": [
+    "model",
+    "algorithm",
+    "benchmark",
+    "training",
+    "inference",
+    "transformer",
+    "diffusion",
+    "llm",
+    "agent",
+    "alignment",
+    "machine learning",
+    "deep learning",
+    "neural",
+    "multimodal",
+    "强化学习",
+    "深度学习",
+    "大模型"
+  ],
+  "expert_prompt": "Reason like a careful AI research analyst. Track benchmark setup, ablations, compute cost, data quality, generalization, robustness, and whether improvements are statistically or practically meaningful.",
+  "source_preferences": [
+    "Prefer papers with explicit benchmark results, ablations, and reproducible evaluation settings.",
+    "Note compute, data scale, and comparison baselines when they affect the claimed improvement."
+  ],
+  "role_guidance": {
+    "planner": "Ensure the plan covers task formulation, datasets, evaluation metrics, baselines, and claimed contributions.",
+    "researcher": "Look for benchmark evidence, ablations, and whether the method compares fairly to strong baselines.",
+    "writer": "Explain methodological novelty, evaluation setup, strengths, failure modes, and reproducibility concerns.",
+    "reviewer": "Penalize vague performance claims, missing baselines, and absent discussion of robustness or data leakage."
+  },
+  "glossary": [
+    {
+      "term": "transformer",
+      "definition": "A neural architecture built around self-attention for modeling long-range dependencies.",
+      "aliases": [
+        "self-attention",
+        "attention model"
+      ]
+    },
+    {
+      "term": "diffusion model",
+      "definition": "A generative model that learns to reverse a noise process to synthesize samples.",
+      "aliases": [
+        "denoising diffusion",
+        "score-based model"
+      ]
+    },
+    {
+      "term": "benchmark",
+      "definition": "A standardized dataset or evaluation suite used to compare methods.",
+      "aliases": [
+        "leaderboard",
+        "evaluation suite"
+      ]
+    },
+    {
+      "term": "ablation study",
+      "definition": "An experiment that removes or changes components to measure their contribution.",
+      "aliases": [
+        "ablation",
+        "component analysis"
+      ]
+    },
+    {
+      "term": "scaling law",
+      "definition": "An empirical relationship between model performance and factors such as parameters, data, or compute.",
+      "aliases": [
+        "scaling",
+        "compute-performance trend"
+      ]
+    }
+  ]
+}

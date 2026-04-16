@@ -1,6 +1,6 @@
-# Academic Researcher Agent (5-Day Course)
+# Academic Researcher Agent 
 
-这是一个面向 **Agent 初学者** 的 5 天学习项目：你会一步步实现一个“学术研究助手” Agent，并逐步覆盖：
+这是一个面向 **Agent** 的学习项目：你会一步步实现一个“学术研究助手” Agent，并逐步覆盖：
 
 - Day 1：Agent 基础（Agentic vs 传统 LLM）
 - Day 2：Tools + MCP（Model Context Protocol）
@@ -10,10 +10,10 @@
 
 本项目使用 **LangGraph / LangChain**（替代你提到的 adk 相关框架）。
 
-## 你将如何学习（重要）
+## 如何学习（重要）
 
-1. 我会把“每一步要改/要做什么”的说明写在 `docs/course/DayX.md`
-2. 你自己决定何时执行命令
+1. 把“每一步要改/要做什么”的说明写在 `docs/course/DayX.md`
+2. 自己决定何时执行命令
 3. 我不会替你自动启动服务器或跑完整训练流程
 
 ## 准备
